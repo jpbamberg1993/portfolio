@@ -36,10 +36,10 @@ p {
 }
 a {
   color: black;
-  font-size: 16px;
 }
 a:hover {
   color: #2492af;
+  opacity: .8;
 }
 .content-box {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4d4b4+0,a4d4b4+0,a4d4b4+0,a4d4b4+0,a4d4b4+2,a4d4b4+3,a4d4b4+7,b8dec1+14,b8dec1+14,b8dec1+34,b0dcbc+82,b8dec1+82,d4ecda+100 */
@@ -161,7 +161,8 @@ ul.navigation li:last-child {
   text-transform: none;
 }
 .portfolio-box {
-  border: 1px solid blue;
+  border: 1px solid ;
+  border-radius: 15px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffbf7+0,fff9f3+47,fff6ed+100 */
   background: #fffbf7; /* Old browsers */
   background: -moz-linear-gradient(top,  #fffbf7 0%, #fff9f3 47%, #fff6ed 100%); /* FF3.6+ */
@@ -180,6 +181,9 @@ ul.navigation li:last-child {
 }
 .portfolio-box ul li {
   margin-bottom: 25px;
+}
+.span8 {
+  margin-top: 75px;
 }
 
 
